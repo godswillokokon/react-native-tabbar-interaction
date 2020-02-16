@@ -1,0 +1,62 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js publish
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ogcodes/Android/Sdk/emulator:/home/ogcodes/Android/Sdk/tools:/home/ogcodes/Android/Sdk/tools/bin:/home/ogcodes/Android/Sdk/platform-tools:/usr/local/go/bin:/home/ogcodes/go/bin:/home/ogcodes/Android/Sdk/emulator:/home/ogcodes/Android/Sdk/tools:/home/ogcodes/Android/Sdk/tools/bin:/home/ogcodes/Android/Sdk/platform-tools:/usr/local/go/bin:/home/ogcodes/go/bin
+
+Yarn version: 
+  1.19.2
+
+Node version: 
+  13.2.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/ogcodes/Documents/libs/react-native-tabbar-interaction/package.json: Unexpected token } in JSON at position 815
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:304:30)
+      at /usr/share/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "@godswillokokon/react-native-tabbar-interaction",
+    "version": "1.0.3",
+    "description": "A tabbar component for React Native",
+    "main": "TabBar.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "OGcodes",
+    "keywords": [
+      "react-native",
+      "basic-components",
+      "Tabbar",
+      "react-native-tabbar"
+    ],
+    "_requiredBy": [
+      "/"
+    ],
+    "peerDependencies": {
+      "react": "16.3.1",
+      "react-native": "0.56"
+    },
+    "license": "MIT",
+    "files": [
+      "README.md"
+    ],
+    "repository": "https://github.com/godswillokokon/react-native-tabbar-interaction",
+    "bugs": {
+      "url": "https://github.com/godswillokokon/react-native-tab-bar-interaction/issues"
+    },
+    "homepage": "https://github.com/godswillokokon/react-native-tab-bar-interaction#readme",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
